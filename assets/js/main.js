@@ -142,17 +142,17 @@ const scrollReveal = ScrollReveal({
     reset: true,
 });
 
-scrollReveal.reveal(`.home-data`, { delay: 500, origin: 'top', easing: 'steps(50)' });
-scrollReveal.reveal(`.home-handle`, {delay: 750, origin: 'bottom', interval: 500},);
-scrollReveal.reveal(`.home-social`, {delay: 1500, origin:'left'});
-scrollReveal.reveal(`.about-img`, {delay: 1000, origin: 'left'})
+scrollReveal.reveal(`.home-data`, { delay: 300, origin: 'top', easing: 'steps(50)' });
+scrollReveal.reveal(`.home-handle`, {delay: 500, origin: 'bottom', interval: 500},);
+scrollReveal.reveal(`.home-social`, {delay: 750, origin:'left'});
+scrollReveal.reveal(`.about-img`, {delay: 800, origin: 'left'})
 scrollReveal.reveal(`.about-description`, {delay: 1500, origin: 'right'})
-scrollReveal.reveal(`.about-info`, { delay: 1500, origin: 'top', easing: 'ease', interval: 100})
-scrollReveal.reveal(`.skill-left`, {delay: 1000, origin: 'left', easing: 'ease-in'})
-scrollReveal.reveal(`.skill-right`, {delay: 1000, origin: 'right', easing:'ease-in'})
-scrollReveal.reveal(`.services-container`, { delay: 1000, origin: 'right', easing: 'ease-in-out'})
-scrollReveal.reveal(`.work-container`, { delay: 1000, origin: 'right', easing: 'ease-in'})
-scrollReveal.reveal(`.testimonial-container`, { delay: 1000, origin: 'left', easing: 'ease-out'})
-scrollReveal.reveal(`.swiper-wrapper`, { delay: 2500, origin: 'right', easing: 'ease', interval:10})
+scrollReveal.reveal(`.about-info`, { delay: 800, origin: 'top', easing: 'ease', interval: 100})
+scrollReveal.reveal(`.skill-left`, {delay: 800, origin: 'left', easing: 'ease-in'})
+scrollReveal.reveal(`.skill-right`, {delay: 800, origin: 'right', easing:'ease-in'})
+scrollReveal.reveal(`.services-container`, { delay: 800, origin: 'right', easing: 'ease-in-out'})
+scrollReveal.reveal(`.work-container`, { delay: 800, origin: 'right', easing: 'ease-in'})
+scrollReveal.reveal(`.testimonial-container`, { delay: 800, origin: 'left', easing: 'ease-out'})
+scrollReveal.reveal(`.swiper-wrapper`, { delay: 900, origin: 'right', easing: 'ease', interval:10})
 scrollReveal.reveal(`.contact-container`, { delay: 500, origin: 'bottom', easing: 'steps(10)'})
 
