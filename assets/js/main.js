@@ -153,6 +153,6 @@ scrollReveal.reveal(`.skill-right`, {delay: 800, origin: 'right', easing:'ease-i
 scrollReveal.reveal(`.services-container`, { delay: 800, origin: 'right', easing: 'ease-in-out'})
 scrollReveal.reveal(`.work-container`, { delay: 800, origin: 'right', easing: 'ease-in'})
 scrollReveal.reveal(`.testimonial-container`, { delay: 800, origin: 'left', easing: 'ease-out'})
-scrollReveal.reveal(`.swiper-wrapper`, { delay: 900, origin: 'right', easing: 'ease', interval:10})
+// scrollReveal.reveal(`.swiper-wrapper`, { delay: 900, origin: 'right', easing: 'ease', interval:10})
 scrollReveal.reveal(`.contact-container`, { delay: 500, origin: 'bottom', easing: 'steps(10)'})
 
